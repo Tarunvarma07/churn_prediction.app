@@ -16,7 +16,7 @@ import xgboost as xgb
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\tarun\\OneDrive\\Desktop\\ml1\\WA_Fn-UseC_-Telco-Customer-Churn.csv")  # Make sure the file is in same folder
+    df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")  # Make sure the file is in same folder
     return df
 
 df = load_data()
